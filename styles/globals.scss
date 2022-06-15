@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 *,
 *::before,
 *::after {
@@ -12,4 +13,4 @@
 :root {
   color: white;
   font-family: "Ubuntu", sans-serif;
-}/*# sourceMappingURL=globals.css.map */
+}
