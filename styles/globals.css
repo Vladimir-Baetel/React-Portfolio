@@ -10,6 +10,58 @@
 }
 
 :root {
-  color: white;
   font-family: "Ubuntu", sans-serif;
+}
+
+.hero-img {
+  filter: contrast(130%) saturate(95%) brightness(90%);
+  image-rendering: high-quality;
+}
+
+.blob-1 {
+  -webkit-animation: blobMotion1 10000ms ease-in-out infinite;
+          animation: blobMotion1 10000ms ease-in-out infinite;
+}
+@-webkit-keyframes blobMotion1 {
+  0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  }
+  50% {
+    border-radius: 68% 32% 38% 62%/68% 55% 45% 32%;
+  }
+  100% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  }
+}
+@keyframes blobMotion1 {
+  0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  }
+  50% {
+    border-radius: 68% 32% 38% 62%/68% 55% 45% 32%;
+  }
+  100% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  }
+}
+
+.blob-2 {
+  -webkit-animation: blobMotion1 15000ms ease-in-out infinite;
+          animation: blobMotion1 15000ms ease-in-out infinite;
+}
+@keyframes blobMotion1 {
+  0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  }
+  50% {
+    border-radius: 68% 32% 38% 62%/68% 55% 45% 32%;
+  }
+  100% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  }
+}
+
+#about {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
 }/*# sourceMappingURL=globals.css.map */

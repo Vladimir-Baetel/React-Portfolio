@@ -1,17 +1,6 @@
 import React, { useState, useEffect } from "react";
 
 const Navbar = () => {
-  //   useEffect(() => {
-  //     const toggleMode = () => {
-  //       const root = document.documentElement;
-
-  //       root.classList.toggle("dark");
-  //       console.log("click");
-  //     };
-  //     const toggleBtn = document.querySelector("#toggle-btn");
-  //     toggleBtn.addEventListener("click", toggleMode);
-  //   });
-
   const [isFirst, setIsFirst] = useState(true);
   const [toggle, setToggle] = useState(false);
   useEffect(() => {
@@ -29,7 +18,7 @@ const Navbar = () => {
         <div className="py-2 px-4 flex grow justify-between">
           <div className="flex items-center cursor-pointer">
             <a href="/">
-              <img className="w-12 mr-2" src="logo.png" alt="" />
+              <img className="w-12 mr-2" src="../logo.png" alt="" />
             </a>
             <h1 className="text-2xl">Vladimir Băețel</h1>
           </div>
@@ -46,20 +35,20 @@ const Navbar = () => {
         >
           <div className="sm:w-fit w-full flex sm:flex-row flex-col">
             <a
-              href="#"
-              className="py-2 px-4 text-lg hover:text-sky-500 text-center"
+              href="#about"
+              className="py-2 px-4 text-lg hover:text-violet-500 text-center"
             >
               About
             </a>
             <a
               href="#"
-              className="py-2 px-4 text-lg hover:text-sky-500 text-center"
+              className="py-2 px-4 text-lg hover:text-violet-500 text-center"
             >
               Projects
             </a>
             <a
               href="#"
-              className="py-2 px-4 text-lg hover:text-sky-500 text-center"
+              className="py-2 px-4 text-lg hover:text-violet-500 text-center"
             >
               Contact
             </a>
@@ -67,7 +56,7 @@ const Navbar = () => {
           <div className="px-4 sm:py-0 py-2 flex items-center justify-center sm:border-l sm:border-t-0 border-l-0 border-t sm:w-fit w-full border-slate-300/10">
             <p className="mr-2 sm:hidden inline">Dark</p>
             <button id="toggle-btn" onClick={(e) => setToggle(!toggle)}>
-              <i className="fa-solid fa-circle-half-stroke hover:text-sky-500"></i>
+              <i className="fa-solid fa-circle-half-stroke hover:text-violet-500"></i>
             </button>
           </div>
         </div>

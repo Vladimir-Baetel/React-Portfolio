@@ -1,3 +1,5 @@
 import Navbar from "./Navbar";
+import Header from "./Header";
+import About from "./About";
 
-export { Navbar };
+export { Navbar, Header, About };
