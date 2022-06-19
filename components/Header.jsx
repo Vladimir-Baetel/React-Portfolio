@@ -2,21 +2,33 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="max-w-7xl pt-8 m-auto relative">
-      <div className="flex flex-col lg:flex-row overflow-hidden">
-        <div className="w-full px-8 flex flex-col gap-4 items-center justify-center z-20">
-          <p className="text-4xl">hi there 👋</p>
-          <h1 className="text-8xl text-violet-500">Vladimir</h1>
-          <p className="text-4xl">frontend developer</p>
-        </div>
-        <div className="w-full h-full px-8 flex justify-center relative">
-          <img className="hero-img z-50 w-4/5" src="../hero_img.png" alt="" />
-          <div className="blob-1 bg-gradient-to-r from-violet-500 to-violet-700 h-2/4 w-2/4 absolute z-20 top-0"></div>
-          <div className="blob-2 bg-gradient-to-t from-violet-600 to-violet-800 h-3/4 w-full absolute z-10 bottom-0"></div>
+    <header className="pt-24 overflow-hidden ">
+      <div className="max-w-7xl m-auto">
+        <div className="flex flex-col lg:flex-row">
+          <div className="w-full px-8 flex flex-col gap-4 items-center justify-center">
+            <p className="text-4xl">
+              hi there{" "}
+              <span id="emoji" className="inline-flex text-5xl">
+                ✋
+              </span>
+            </p>
+            <h1 className="text-8xl text-violet-600">Vladimir</h1>
+            <p className="text-4xl">frontend developer</p>
+            <a
+              className="py-2 px-4 hover:px-6 mt-4 text-xl text-center text-white bg-violet-600 hover:bg-violet-500 transition-all rounded-lg shadow-lg shadow-black/20 dark:shadow-gray-400/10"
+              href="#projects"
+            >
+              <span>Check my work</span>
+              <i className="ml-2 rotate-90 fa-solid fa-share"></i>
+            </a>
+          </div>
+          <div className="w-full h-full px-8 flex justify-center relative">
+            <img className="hero-img z-20 w-4/5" src="../hero_img.png" alt="" />
+            <div className="blob-1 bg-gradient-to-r from-violet-500 to-violet-700 h-2/4 w-2/4 absolute z-10 top-0 shadow-2xl"></div>
+            <div className="blob-2 bg-gradient-to-t from-violet-600 to-violet-800 h-3/4 w-full absolute bottom-0 shadow-2xl"></div>
+          </div>
         </div>
       </div>
-
-      {/* <div className="blob-3 bg-violet-200 h-80 w-80 blur-xl absolute top-1/4 z-10"></div> */}
     </header>
   );
 };

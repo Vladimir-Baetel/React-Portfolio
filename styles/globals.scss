@@ -14,6 +14,22 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+#emoji {
+  animation: shake 1000ms infinite ease-in-out;
+
+  @keyframes shake {
+    0% {
+      transform: rotate(-15deg);
+    }
+    50% {
+      transform: rotate(15deg);
+    }
+    100% {
+      transform: rotate(-15deg);
+    }
+  }
+}
+
 .hero-img {
   filter: contrast(130%) saturate(95%) brightness(90%);
   image-rendering: high-quality;
@@ -35,9 +51,9 @@
   }
 }
 .blob-2 {
-  animation: blobMotion1 15000ms ease-in-out infinite;
+  animation: blobMotion2 15000ms ease-in-out infinite;
 
-  @keyframes blobMotion1 {
+  @keyframes blobMotion2 {
     0% {
       border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     }

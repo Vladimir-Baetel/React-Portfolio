@@ -13,6 +13,33 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+#emoji {
+  -webkit-animation: shake 1000ms infinite ease-in-out;
+          animation: shake 1000ms infinite ease-in-out;
+}
+@-webkit-keyframes shake {
+  0% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+@keyframes shake {
+  0% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+
 .hero-img {
   filter: contrast(130%) saturate(95%) brightness(90%);
   image-rendering: high-quality;
@@ -46,10 +73,21 @@
 }
 
 .blob-2 {
-  -webkit-animation: blobMotion1 15000ms ease-in-out infinite;
-          animation: blobMotion1 15000ms ease-in-out infinite;
+  -webkit-animation: blobMotion2 15000ms ease-in-out infinite;
+          animation: blobMotion2 15000ms ease-in-out infinite;
 }
-@keyframes blobMotion1 {
+@-webkit-keyframes blobMotion2 {
+  0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  }
+  50% {
+    border-radius: 68% 32% 38% 62%/68% 55% 45% 32%;
+  }
+  100% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  }
+}
+@keyframes blobMotion2 {
   0% {
     border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
   }
