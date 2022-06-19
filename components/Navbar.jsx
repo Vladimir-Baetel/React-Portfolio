@@ -13,7 +13,7 @@ const Navbar = () => {
   }, [toggle]);
 
   return (
-    <nav className="w-full bg-white/50 dark:bg-black/50 shadow-lg shadow-black/10 dark:shadow-gray-400/10 fixed z-50">
+    <nav className="w-full bg-white/50 dark:bg-black/50 shadow shadow-black/10 dark:shadow-gray-400/10 fixed z-50">
       <div className="flex sm:flex-row flex-col max-w-7xl mx-auto relative">
         <div className="py-2 px-4 flex grow justify-between">
           <div className="flex items-center cursor-pointer">
@@ -50,7 +50,12 @@ const Navbar = () => {
               href="#"
               className="py-1 px-4 hover:px-6 mx-2 hover:mx-0 text-lg text-center text-white bg-violet-600 hover:bg-violet-500 transition-all rounded-lg shadow-lg shadow-black/20 dark:shadow-gray-400/10"
             >
-              Contact
+              <p>
+                Contact
+                <span id="emoji-1" className="ml-2 inline-flex">
+                  ✋
+                </span>
+              </p>
             </a>
           </div>
           <div className="px-4 sm:py-0 py-2 flex items-center justify-center">

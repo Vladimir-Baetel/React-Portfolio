@@ -6,20 +6,19 @@ const Header = () => {
       <div className="max-w-7xl m-auto">
         <div className="flex flex-col lg:flex-row">
           <div className="w-full px-8 flex flex-col gap-4 items-center justify-center">
-            <p className="text-4xl">
-              hi there{" "}
-              <span id="emoji" className="inline-flex text-5xl">
-                ✋
-              </span>
-            </p>
             <h1 className="text-8xl text-violet-600">Vladimir</h1>
             <p className="text-4xl">frontend developer</p>
             <a
               className="py-2 px-4 hover:px-6 mt-4 text-xl text-center text-white bg-violet-600 hover:bg-violet-500 transition-all rounded-lg shadow-lg shadow-black/20 dark:shadow-gray-400/10"
               href="#projects"
             >
-              <span>Check my work</span>
-              <i className="ml-2 rotate-90 fa-solid fa-share"></i>
+              <p>
+                Check my work
+                <span id="emoji-2" className="ml-2 inline-flex">
+                  👇
+                </span>
+              </p>
+              {/* <i className="ml-2 rotate-90 fa-solid fa-share"></i> */}
             </a>
           </div>
           <div className="w-full h-full px-8 flex justify-center relative">

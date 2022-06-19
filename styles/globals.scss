@@ -14,18 +14,51 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-#emoji {
-  animation: shake 1000ms infinite ease-in-out;
+#emoji-1 {
+  animation: wave 20000ms infinite ease-in-out;
 
-  @keyframes shake {
+  @keyframes wave {
     0% {
       transform: rotate(-15deg);
     }
-    50% {
+    1% {
       transform: rotate(15deg);
+    }
+    2% {
+      transform: rotate(-15deg);
+    }
+    3% {
+      transform: rotate(15deg);
+    }
+    4% {
+      transform: rotate(-15deg);
     }
     100% {
       transform: rotate(-15deg);
+    }
+  }
+}
+#emoji-2 {
+  animation: shake 20000ms 5000ms infinite ease-in-out;
+
+  @keyframes shake {
+    0% {
+      transform: translateY(0);
+    }
+    1% {
+      transform: translateY(0.25rem);
+    }
+    2% {
+      transform: translateY(-0.25rem);
+    }
+    3% {
+      transform: translateY(0.25rem);
+    }
+    4% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(0);
     }
   }
 }

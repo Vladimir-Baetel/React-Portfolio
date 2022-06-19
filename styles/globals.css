@@ -13,30 +13,93 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-#emoji {
-  -webkit-animation: shake 1000ms infinite ease-in-out;
-          animation: shake 1000ms infinite ease-in-out;
+#emoji-1 {
+  -webkit-animation: wave 20000ms infinite ease-in-out;
+          animation: wave 20000ms infinite ease-in-out;
 }
-@-webkit-keyframes shake {
+@-webkit-keyframes wave {
   0% {
     transform: rotate(-15deg);
   }
-  50% {
+  1% {
     transform: rotate(15deg);
+  }
+  2% {
+    transform: rotate(-15deg);
+  }
+  3% {
+    transform: rotate(15deg);
+  }
+  4% {
+    transform: rotate(-15deg);
   }
   100% {
     transform: rotate(-15deg);
+  }
+}
+@keyframes wave {
+  0% {
+    transform: rotate(-15deg);
+  }
+  1% {
+    transform: rotate(15deg);
+  }
+  2% {
+    transform: rotate(-15deg);
+  }
+  3% {
+    transform: rotate(15deg);
+  }
+  4% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+
+#emoji-2 {
+  -webkit-animation: shake 20000ms 5000ms infinite ease-in-out;
+          animation: shake 20000ms 5000ms infinite ease-in-out;
+}
+@-webkit-keyframes shake {
+  0% {
+    transform: translateY(0);
+  }
+  1% {
+    transform: translateY(0.25rem);
+  }
+  2% {
+    transform: translateY(-0.25rem);
+  }
+  3% {
+    transform: translateY(0.25rem);
+  }
+  4% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 @keyframes shake {
   0% {
-    transform: rotate(-15deg);
+    transform: translateY(0);
   }
-  50% {
-    transform: rotate(15deg);
+  1% {
+    transform: translateY(0.25rem);
+  }
+  2% {
+    transform: translateY(-0.25rem);
+  }
+  3% {
+    transform: translateY(0.25rem);
+  }
+  4% {
+    transform: translateY(0);
   }
   100% {
-    transform: rotate(-15deg);
+    transform: translateY(0);
   }
 }
 
