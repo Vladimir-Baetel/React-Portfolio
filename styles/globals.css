@@ -165,4 +165,25 @@
 #about {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
           clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+
+#toggle-btn.spin {
+  -webkit-animation: spin 500ms 1 ease-in-out forwards;
+          animation: spin 500ms 1 ease-in-out forwards;
+}
+@-webkit-keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }/*# sourceMappingURL=globals.css.map */

@@ -9,7 +9,7 @@ const Header = () => {
             <h1 className="text-8xl text-violet-600">Vladimir</h1>
             <p className="text-4xl">frontend developer</p>
             <a
-              className="py-2 px-4 hover:px-6 mt-4 text-xl text-center text-white bg-violet-600 hover:bg-violet-500 transition-all rounded-lg shadow-lg shadow-black/20 dark:shadow-gray-400/10"
+              className="py-2 px-4 hover:px-6 mt-4 text-xl text-center text-white bg-gradient-to-b from-violet-600 hover:from-violet-500 to-violet-700 hover:to-violet-600 transition-all rounded-lg shadow-lg shadow-black/20 dark:shadow-gray-400/10"
               href="#projects"
             >
               <p>

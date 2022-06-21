@@ -102,3 +102,18 @@
 #about {
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
 }
+
+#toggle-btn {
+  &.spin {
+    animation: spin 500ms 1 ease-in-out forwards;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
