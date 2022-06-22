@@ -15,22 +15,22 @@
 }
 
 #emoji-1 {
-  animation: wave 10000ms infinite ease-in-out;
+  animation: wave 10000ms 1000ms infinite ease-in-out;
 
   @keyframes wave {
     0% {
       transform: rotate(-15deg);
     }
-    1% {
-      transform: rotate(15deg);
-    }
     2% {
-      transform: rotate(-15deg);
-    }
-    3% {
       transform: rotate(15deg);
     }
     4% {
+      transform: rotate(-15deg);
+    }
+    6% {
+      transform: rotate(15deg);
+    }
+    8% {
       transform: rotate(-15deg);
     }
     100% {
@@ -39,22 +39,22 @@
   }
 }
 #emoji-2 {
-  animation: shake 10000ms 5000ms infinite ease-in-out;
+  animation: shake 10000ms 2000ms infinite ease-in-out;
 
   @keyframes shake {
     0% {
       transform: translateY(0);
     }
-    1% {
-      transform: translateY(0.25rem);
-    }
     2% {
-      transform: translateY(-0.25rem);
-    }
-    3% {
       transform: translateY(0.25rem);
     }
     4% {
+      transform: translateY(-0.25rem);
+    }
+    6% {
+      transform: translateY(0.25rem);
+    }
+    8% {
       transform: translateY(0);
     }
     100% {

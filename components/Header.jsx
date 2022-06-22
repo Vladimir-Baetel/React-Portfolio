@@ -1,5 +1,3 @@
-import React from "react";
-
 const Header = () => {
   return (
     <header className="pt-24 overflow-hidden ">
@@ -11,7 +9,7 @@ const Header = () => {
               frontend developer
             </p>
             <a
-              className="mb-8 py-2 px-4 hover:px-6 mt-4 text-xl text-center text-white bg-gradient-to-b from-violet-600 hover:from-violet-500 to-violet-700 hover:to-violet-600 transition-all rounded-lg shadow-lg border border-white/20"
+              className="mb-8 py-2 px-4 hover:px-6 mt-4 text-xl text-center text-white bg-gradient-to-b from-violet-600 hover:from-violet-500 to-violet-700 hover:to-violet-600 transition-all rounded-lg shadow-lg border-2 border-violet-600"
               href="#projects"
             >
               <p>
