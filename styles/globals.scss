@@ -15,7 +15,7 @@
 }
 
 #emoji-1 {
-  animation: wave 20000ms infinite ease-in-out;
+  animation: wave 10000ms infinite ease-in-out;
 
   @keyframes wave {
     0% {
@@ -39,7 +39,7 @@
   }
 }
 #emoji-2 {
-  animation: shake 20000ms 5000ms infinite ease-in-out;
+  animation: shake 10000ms 5000ms infinite ease-in-out;
 
   @keyframes shake {
     0% {
@@ -97,10 +97,6 @@
       border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     }
   }
-}
-
-#about {
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
 }
 
 #toggle-btn {

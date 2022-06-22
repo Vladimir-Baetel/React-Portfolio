@@ -52,7 +52,7 @@ const Navbar = () => {
             </a>
             <a
               href="#"
-              className="py-1 px-4 hover:px-6 mx-2 hover:mx-0 text-lg text-center text-white bg-gradient-to-b from-violet-600 hover:from-violet-500 to-violet-700 hover:to-violet-600 transition-all rounded-lg shadow-lg shadow-black/20 dark:shadow-gray-400/10"
+              className="py-1 px-4 hover:px-6 mx-2 hover:mx-0 text-lg text-center text-white bg-gradient-to-b from-violet-600 hover:from-violet-500 to-violet-700 hover:to-violet-600 transition-all rounded-lg shadow-lg border border-white/20"
             >
               <p>
                 Contact
