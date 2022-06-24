@@ -13,13 +13,17 @@ const About = () => {
               ratione laboriosam in alias doloremque earum? Quos, dicta esse.
             </p>
           </div>
-          <div className="w-full flex flex-col items-center">
+
+          <div className="w-fit flex flex-col items-center relative">
             <img
-              className="w-2/3 border-8 border-violet-700 rounded-lg shadow-lg"
+              className="border-8 border-violet-700 rounded-lg shadow-lg"
               src="coding.gif"
               alt=""
             />
-            <p className="text-2xl">🔴 livestream of me coding</p>
+            <p className="px-2 text-xl text-white absolute top-2 left-2">
+              <i className="mr-2 animate-pulse text-red-600 fa-solid fa-video"></i>{" "}
+              livestream of me coding
+            </p>
           </div>
         </div>
       </div>
