@@ -1,8 +1,8 @@
 const About = () => {
   return (
     <section id="contact">
-      <div className="w-full max-w-7xl mx-auto flex">
-        <div className="w-full px-4 py-8 flex gap-8">
+      <div className="px-4 py-32 max-w-7xl mx-auto flex flex-col gap-16">
+        <div className="w-full flex gap-8">
           <div className="w-full flex flex-col">
             <p className="text-xl">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime

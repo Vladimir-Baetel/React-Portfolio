@@ -17,6 +17,22 @@ const Navbar = () => {
     }, 500);
   }, [toggle]);
 
+  useEffect(() => {
+    const toggleBtn = document.querySelector("#toggle-btn");
+
+    if (document.documentElement.classList.contains("dark")) {
+      setTimeout(() => {
+        toggleBtn.innerHTML =
+          '<i class="fa-solid fa-sun hover:text-violet-600"></i>';
+      }, 250);
+    } else {
+      setTimeout(() => {
+        toggleBtn.innerHTML =
+          '<i class="fa-solid fa-moon hover:text-violet-600"></i>';
+      }, 250);
+    }
+  });
+
   const navbarHeight = () => {
     useEffect(() => {
       const navbarH = document.querySelector("#navbar").offsetHeight;
@@ -81,7 +97,7 @@ const Navbar = () => {
           <div className="px-4 sm:py-0 py-2 flex items-center justify-center">
             <p className="mr-2 sm:hidden inline">Dark</p>
             <button id="toggle-btn" onClick={(e) => setToggle(!toggle)}>
-              <i className="fa-solid fa-circle-half-stroke hover:text-violet-600"></i>
+              <i className="fa-solid fa-moon hover:text-violet-600"></i>
             </button>
           </div>
         </div>
