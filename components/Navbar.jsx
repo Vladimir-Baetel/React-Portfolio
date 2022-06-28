@@ -33,7 +33,7 @@ const Navbar = () => {
     }
   });
 
-  const navbarHeight = () => {
+  const NavbarHeight = () => {
     useEffect(() => {
       const navbarH = document.querySelector("#navbar").offsetHeight;
 
@@ -43,7 +43,7 @@ const Navbar = () => {
       );
     });
   };
-  navbarHeight();
+  NavbarHeight();
 
   return (
     <nav

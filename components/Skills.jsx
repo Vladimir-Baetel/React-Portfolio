@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 const Skills = () => {
-  const skillsAnimation = () => {
+  const SkillsAnimation = () => {
     useEffect(() => {
       for (
         let i = 0;
@@ -13,7 +13,7 @@ const Skills = () => {
       }
     });
   };
-  skillsAnimation();
+  SkillsAnimation();
 
   return (
     <div className="flex bg-gradient-to-b from-violet-600 to-violet-700">

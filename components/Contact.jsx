@@ -5,7 +5,7 @@ const About = () => {
         <div className="w-full flex flex-col justify-center gap-6">
           <p className="text-3xl">
             Like what you see?{" "}
-            <span className="text-violet-600 font-bold">Let's talk!</span>
+            <span className="text-violet-600 font-bold">Let&apos;s talk!</span>
           </p>
           <div className="flex flex-col gap-2">
             <p className="text-2xl cursor-pointer">
@@ -20,8 +20,8 @@ const About = () => {
             </p>
           </div>
           <p className="text-2xl">
-            I'm open to both employment as well as freelance opportunities, so
-            don't hesitate to contact me 😀
+            I&apos;m open to both employment as well as freelance opportunities,
+            so don&apos;t hesitate to contact me 😀
           </p>
           <div className="flex gap-4">
             <div className="flex flex-col items-center">
