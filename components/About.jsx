@@ -5,28 +5,28 @@ const About = () => {
     <section id="about">
       <Skills />
       <div className="max-w-7xl px-4 py-32 mx-auto flex flex-col gap-16">
-        <div className="w-full flex gap-16">
+        <div className="w-full flex lg:flex-row flex-col-reverse gap-16">
           <div className="w-full">
             <div className="h-96 bg-white rounded-lg shadow-lg">VIDEO</div>
           </div>
           <div className="w-full flex flex-col justify-center gap-6">
-            <div className="flex gap-4 items-center">
+            <div className="flex gap-4 items-center lg:justify-start justify-center">
               <div>
-                <p className="text-8xl font-bold text-violet-600">
-                  2<span className="text-6xl">+</span>
+                <p className="sm:text-8xl text-6xl font-bold text-violet-600">
+                  2<span className="sm:text-6xl text-4xl">+</span>
                 </p>
               </div>
-              <div className="flex-col text-3xl">
+              <div className="flex-col sm:text-3xl text-xl">
                 <p>years of experience</p>
                 <p>as a frontend developer</p>
               </div>
             </div>
-            <p className="text-2xl text-justify">
+            <p className="sm:text-2xl text-lg text-justify">
               What started out as doing simple customizations for Shopify stores
               quickly turned into a passion for building and designing clean,
               modern, fully-responsive and pixel-perfect websites from scratch.
             </p>
-            <p className="flex items-center text-xl">
+            <p className="flex items-center lg:justify-start justify-center sm:text-xl">
               Check out my
               <a
                 className="mx-2 inline-flex items-center text-violet-600 hover:text-violet-700 border-b border-violet-600"
@@ -38,7 +38,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="w-full flex gap-16">
+        <div className="w-full flex lg:flex-row flex-col gap-16">
           <div className="flex flex-col gap-6 justify-center">
             <div className="w-full flex flex-col gap-6">
               <p className="text-3xl">Technical and soft skills:</p>
@@ -97,7 +97,7 @@ const About = () => {
             </div> */}
           </div>
           <div className="w-full">
-            <div className="h-60 bg-white">
+            <div className="">
               <Testimonials />
             </div>
           </div>
