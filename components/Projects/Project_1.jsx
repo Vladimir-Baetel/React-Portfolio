@@ -22,7 +22,7 @@ const Project_1 = () => {
                 className="w-full h-full"
                 href="https://github.com/Vladimir-Baetel/Weather-App.git"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 <div className="w-full h-full flex flex-col items-center justify-center hover:text-violet-300">
                   <i className="text-6xl fa-brands fa-github"></i>
@@ -33,7 +33,7 @@ const Project_1 = () => {
                 className="w-full h-full"
                 href="https://vladimir-baetel.github.io/Weather-App/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 <div className="w-full h-full flex flex-col items-center justify-center hover:text-violet-300">
                   <i className="text-6xl fa-solid fa-globe"></i>

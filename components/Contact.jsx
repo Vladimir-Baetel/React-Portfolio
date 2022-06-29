@@ -39,7 +39,7 @@ const About = () => {
             <a
               href="https://www.linkedin.com/in/vladimir-baetel/"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
             >
               <div className="flex flex-col items-center">
                 <div className="w-16 flex items-center justify-center text-white bg-gradient-to-b from-violet-600 hover:from-violet-500 to-violet-700 hover:to-violet-600 transition-all rounded-lg shadow-lg border-2 border-violet-600">
@@ -51,7 +51,7 @@ const About = () => {
             <a
               href="https://github.com/Vladimir-Baetel"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
             >
               <div className="flex flex-col items-center">
                 <div className="w-16 flex items-center justify-center text-white bg-gradient-to-b from-violet-600 hover:from-violet-500 to-violet-700 hover:to-violet-600 transition-all rounded-lg shadow-lg border-2 border-violet-600">
@@ -63,7 +63,7 @@ const About = () => {
             <a
               href="https://codepen.io/vladimirbaetel"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
             >
               <div className="flex flex-col items-center">
                 <div className="w-16 flex items-center justify-center text-white bg-gradient-to-b from-violet-600 hover:from-violet-500 to-violet-700 hover:to-violet-600 transition-all rounded-lg shadow-lg border-2 border-violet-600">

@@ -22,7 +22,7 @@ const Project_2 = () => {
                 className="w-full h-full"
                 href="https://github.com/Vladimir-Baetel/React-Portfolio.git"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 <div className="w-full h-full flex flex-col items-center justify-center hover:text-violet-300">
                   <i className="text-6xl fa-brands fa-github"></i>
