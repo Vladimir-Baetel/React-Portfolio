@@ -7,7 +7,9 @@ const About = () => {
       <div className="max-w-7xl px-4 py-32 mx-auto flex flex-col gap-16">
         <div className="w-full flex lg:flex-row flex-col-reverse gap-16">
           <div className="w-full">
-            <div className="h-96 bg-white rounded-lg shadow-lg">VIDEO</div>
+            <div className="">
+              <img className="blob-2 shadow-lg" src="coding_bg.jpg" alt="" />
+            </div>
           </div>
           <div className="w-full flex flex-col justify-center gap-6">
             <div className="flex gap-4 items-center lg:justify-start justify-center">

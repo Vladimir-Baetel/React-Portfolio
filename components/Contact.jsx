@@ -36,24 +36,42 @@ const About = () => {
             so don&apos;t hesitate to contact me 😀
           </p>
           <div className="flex gap-4">
-            <div className="flex flex-col items-center">
-              <div className="w-16 flex items-center justify-center text-white bg-gradient-to-b from-violet-600 hover:from-violet-500 to-violet-700 hover:to-violet-600 transition-all rounded-lg shadow-lg border-2 border-violet-600">
-                <i className="p-4 text-3xl fa-brands fa-linkedin-in"></i>
+            <a
+              href="https://www.linkedin.com/in/vladimir-baetel/"
+              target="_blank"
+              rel="noopener"
+            >
+              <div className="flex flex-col items-center">
+                <div className="w-16 flex items-center justify-center text-white bg-gradient-to-b from-violet-600 hover:from-violet-500 to-violet-700 hover:to-violet-600 transition-all rounded-lg shadow-lg border-2 border-violet-600">
+                  <i className="p-4 text-3xl fa-brands fa-linkedin-in"></i>
+                </div>
+                <p>LinkedIn</p>
               </div>
-              <p>LinkedIn</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="w-16 flex items-center justify-center text-white bg-gradient-to-b from-violet-600 hover:from-violet-500 to-violet-700 hover:to-violet-600 transition-all rounded-lg shadow-lg border-2 border-violet-600">
-                <i className="p-4 text-3xl fa-brands fa-github"></i>
+            </a>
+            <a
+              href="https://github.com/Vladimir-Baetel"
+              target="_blank"
+              rel="noopener"
+            >
+              <div className="flex flex-col items-center">
+                <div className="w-16 flex items-center justify-center text-white bg-gradient-to-b from-violet-600 hover:from-violet-500 to-violet-700 hover:to-violet-600 transition-all rounded-lg shadow-lg border-2 border-violet-600">
+                  <i className="p-4 text-3xl fa-brands fa-github"></i>
+                </div>
+                <p>GitHub</p>
               </div>
-              <p>GitHub</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="w-16 flex items-center justify-center text-white bg-gradient-to-b from-violet-600 hover:from-violet-500 to-violet-700 hover:to-violet-600 transition-all rounded-lg shadow-lg border-2 border-violet-600">
-                <i className="p-4 text-3xl fa-brands fa-codepen"></i>
+            </a>
+            <a
+              href="https://codepen.io/vladimirbaetel"
+              target="_blank"
+              rel="noopener"
+            >
+              <div className="flex flex-col items-center">
+                <div className="w-16 flex items-center justify-center text-white bg-gradient-to-b from-violet-600 hover:from-violet-500 to-violet-700 hover:to-violet-600 transition-all rounded-lg shadow-lg border-2 border-violet-600">
+                  <i className="p-4 text-3xl fa-brands fa-codepen"></i>
+                </div>
+                <p>CodePen</p>
               </div>
-              <p>CodePen</p>
-            </div>
+            </a>
           </div>
         </div>
 

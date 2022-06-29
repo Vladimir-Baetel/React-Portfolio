@@ -9,7 +9,7 @@ const Projects = () => {
             <Project_1 />
             <Project_2 />
           </div>
-          <div className="flex lg:flex-row flex-col gap-16">
+          {/* <div className="flex lg:flex-row flex-col gap-16">
             <div className="w-full h-60 flex flex-col bg-white/20 rounded-lg shadow-lg">
               Certification
             </div>
@@ -19,7 +19,7 @@ const Projects = () => {
             <div className="w-full h-60 flex flex-col bg-white/20 rounded-lg shadow-lg">
               Certification
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
