@@ -8,12 +8,24 @@ const About = () => {
             <span className="text-violet-600 font-bold">Let&apos;s talk!</span>
           </p>
           <div className="flex flex-col gap-2">
-            <p className="text-2xl cursor-pointer">
+            <p
+              onClick={() => {
+                navigator.clipboard.writeText("+40739727097");
+                alert("Phone copied to clipboard!");
+              }}
+              className="text-2xl cursor-pointer"
+            >
               <i className="mr-2 text-violet-600 fa-solid fa-square-phone"></i>
               +40 739 727 097
               <i className="ml-2 text-base text-violet-600 fa-solid fa-paste"></i>
             </p>
-            <p className="text-2xl cursor-pointer">
+            <p
+              onClick={() => {
+                navigator.clipboard.writeText("vladimir.baetel@gmail.com");
+                alert("Email copied to clipboard!");
+              }}
+              className="text-2xl cursor-pointer"
+            >
               <i className="mr-2 text-violet-600 fa-solid fa-square-envelope"></i>
               vladimir.baetel@gmail.com
               <i className="ml-2 text-base text-violet-600 fa-solid fa-paste"></i>
