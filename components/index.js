@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import Projects from "./Projects/Projects";
 import Project_1 from "./Projects/Project_1";
 import Project_2 from "./Projects/Project_2";
+import BackToTop from "./BackToTop";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   Footer,
   Project_1,
   Project_2,
+  BackToTop,
 };
