@@ -3,7 +3,7 @@ const About = () => {
     <section id="contact">
       <div className="px-4 py-32 max-w-7xl mx-auto flex lg:flex-row flex-col gap-16">
         <div className="w-full flex flex-col lg:items-start items-center justify-center gap-6">
-          <p className="text-3xl">
+          <p className="sm:text-3xl text-2xl">
             Like what you see?{" "}
             <span className="text-violet-600 font-bold">Let&apos;s talk!</span>
           </p>
@@ -13,7 +13,7 @@ const About = () => {
                 navigator.clipboard.writeText("+40739727097");
                 alert("Phone copied to clipboard!");
               }}
-              className="text-2xl cursor-pointer"
+              className="sm:text-2xl text-xl cursor-pointer"
             >
               <i className="mr-2 text-violet-600 fa-solid fa-square-phone"></i>
               +40 739 727 097
@@ -24,14 +24,14 @@ const About = () => {
                 navigator.clipboard.writeText("vladimir.baetel@gmail.com");
                 alert("Email copied to clipboard!");
               }}
-              className="text-2xl cursor-pointer"
+              className="sm:text-2xl text-xl cursor-pointer"
             >
               <i className="mr-2 text-violet-600 fa-solid fa-square-envelope"></i>
               vladimir.baetel@gmail.com
               <i className="ml-2 text-base text-violet-600 fa-solid fa-paste"></i>
             </p>
           </div>
-          <p className="text-2xl lg:text-left text-center">
+          <p className="sm:text-2xl text-xl lg:text-left text-center">
             I&apos;m open to both employment as well as freelance opportunities,
             so don&apos;t hesitate to contact me 😀
           </p>
@@ -75,7 +75,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="lg:w-full w-2/3 mx-auto h-fit flex flex-col bg-white/20 rounded-lg shadow-lg border border-black/50 dark:border-white/50 relative">
+        <div className="lg:w-full sm:w-2/3 w-full mx-auto h-fit flex flex-col bg-white/20 rounded-lg shadow-lg border border-black/50 dark:border-white/50 relative">
           <div className="p-1.5 flex gap-1.5 absolute top-0 left-0">
             <div className="w-3 h-3 rounded-full bg-gradient-to-b from-red-400 to-red-600 border border-red-600"></div>
             <div className="w-3 h-3 rounded-full bg-gradient-to-b from-yellow-400 to-yellow-600 border border-yellow-600"></div>
