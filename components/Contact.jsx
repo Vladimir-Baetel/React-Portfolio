@@ -2,7 +2,7 @@ const About = () => {
   return (
     <section id="contact">
       <div className="px-4 py-32 max-w-7xl mx-auto flex lg:flex-row flex-col gap-16">
-        <div className="w-full flex flex-col justify-center gap-6">
+        <div className="w-full flex flex-col lg:items-start items-center justify-center gap-6">
           <p className="text-3xl">
             Like what you see?{" "}
             <span className="text-violet-600 font-bold">Let&apos;s talk!</span>
@@ -31,7 +31,7 @@ const About = () => {
               <i className="ml-2 text-base text-violet-600 fa-solid fa-paste"></i>
             </p>
           </div>
-          <p className="text-2xl">
+          <p className="text-2xl lg:text-left text-center">
             I&apos;m open to both employment as well as freelance opportunities,
             so don&apos;t hesitate to contact me 😀
           </p>
@@ -75,7 +75,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="w-full h-fit flex flex-col bg-white/20 rounded-lg shadow-lg border border-black/50 dark:border-white/50 relative">
+        <div className="lg:w-full w-2/3 mx-auto h-fit flex flex-col bg-white/20 rounded-lg shadow-lg border border-black/50 dark:border-white/50 relative">
           <div className="p-1.5 flex gap-1.5 absolute top-0 left-0">
             <div className="w-3 h-3 rounded-full bg-gradient-to-b from-red-400 to-red-600 border border-red-600"></div>
             <div className="w-3 h-3 rounded-full bg-gradient-to-b from-yellow-400 to-yellow-600 border border-yellow-600"></div>

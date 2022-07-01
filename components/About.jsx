@@ -6,7 +6,7 @@ const About = () => {
       <Skills />
       <div className="max-w-7xl px-4 py-32 mx-auto flex flex-col gap-16">
         <div className="w-full flex lg:flex-row flex-col-reverse gap-16">
-          <div className="w-full">
+          <div className="w-full flex justify-center">
             <div className="">
               <img className="blob-2 shadow-lg" src="coding_bg.jpg" alt="" />
             </div>
@@ -41,10 +41,10 @@ const About = () => {
           </div>
         </div>
         <div className="w-full flex lg:flex-row flex-col gap-16">
-          <div className="flex flex-col gap-6 justify-center">
-            <div className="w-full flex flex-col gap-6">
+          <div className="w-full flex flex-col gap-6 justify-center">
+            <div className="w-full flex flex-col lg:items-start items-center gap-6">
               <p className="text-3xl">Technical and soft skills:</p>
-              <div className="flex flex-wrap gap-2 text-xl text-black">
+              <div className="flex flex-wrap lg:justify-start justify-center gap-2 text-xl text-black">
                 <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-pink-300 to-rose-600 shadow-lg">
                   📈 sales
                 </p>
@@ -99,9 +99,7 @@ const About = () => {
             </div> */}
           </div>
           <div className="w-full">
-            <div className="">
-              <Testimonials />
-            </div>
+            <Testimonials />
           </div>
         </div>
       </div>

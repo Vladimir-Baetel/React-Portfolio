@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <div className="w-full h-full p-8 flex flex-col justify-between gap-8 bg-white/75 dark:bg-black/75 rounded-lg shadow-lg backdrop-blur-sm">
+    <div className="lg:w-full w-2/3 mx-auto h-full p-8 flex flex-col justify-between gap-8 bg-white/75 dark:bg-black/75 rounded-lg shadow-lg backdrop-blur-sm">
       <div className="flex items-center">
         <img
           className="w-12 h-12 rounded-full shadow-lg"
