@@ -7,7 +7,7 @@ const About = () => {
             Like what you see?{" "}
             <span className="text-violet-600 font-bold">Let&apos;s talk!</span>
           </p>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col sm:items-start items-center gap-2">
             <p
               onClick={() => {
                 navigator.clipboard.writeText("+40739727097");

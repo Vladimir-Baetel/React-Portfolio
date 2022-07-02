@@ -48,28 +48,17 @@ const Navbar = () => {
   return (
     <nav
       id="navbar"
-      className="w-full bg-white/50 dark:bg-black/50 shadow shadow-black/10 dark:shadow-gray-200/10 backdrop-blur-sm fixed z-50"
+      className="w-full bg-white/50 dark:bg-black/50 border-b border-black/20 dark:border-white/20 backdrop-blur-sm fixed z-50"
     >
-      <div className="flex sm:flex-row flex-col max-w-7xl mx-auto relative">
-        <div className="py-2 px-4 flex grow justify-between">
-          <div className="flex items-center cursor-pointer">
-            <a href="#" className="flex items-center">
-              <img className="w-12 mr-2" src="../logo.png" alt="" />
-              <h1 className="text-2xl">Vladimir Băețel</h1>
-            </a>
-          </div>
-          <div className="sm:hidden">
-            <i
-              id="nav-button"
-              className="fa-solid fa-ellipsis sm:text-2xl text-lg"
-            ></i>
-          </div>
+      <div className="flex justify-between items-center max-w-7xl mx-auto relative">
+        <div className="flex items-center">
+          <a href="#" className="flex items-center">
+            <img className="w-12 mr-2" src="../logo.png" alt="" />
+            <h1 className="text-2xl">Vladimir Băețel</h1>
+          </a>
         </div>
-        <div
-          id="mobile-nav"
-          className="sm:w-fit w-1/2 sm:flex hidden sm:flex-row flex-col items-center sm:static absolute right-0 sm:bg-inherit bg-black/20 sm:border-0 border-t-0 border-r-0 border border-slate-300/10"
-        >
-          <div className="sm:w-fit w-full flex items-center sm:flex-row flex-col">
+        <div className="flex">
+          <div className="w-fit sm:flex hidden items-center">
             <a
               href="#about"
               className="py-2 px-4 text-lg hover:text-violet-600 text-center"
@@ -95,11 +84,24 @@ const Navbar = () => {
             </a>
           </div>
           <div className="px-4 sm:py-0 py-2 flex items-center justify-center">
-            <p className="mr-2 sm:hidden inline">Dark</p>
             <button id="toggle-btn" onClick={(e) => setToggle(!toggle)}>
               <i className="fa-solid fa-moon hover:text-violet-600"></i>
             </button>
           </div>
+        </div>
+        <div className="w-fit left-1/2 -translate-x-1/2 px-8 sm:hidden flex items-center justify-around gap-8 fixed bottom-0 bg-white/50 dark:bg-black/50 rounded-t-3xl border border-black/20 dark:border-white/20 border-b-0 backdrop-blur-sm ">
+          <a href="#">
+            <i className="p-2 text-2xl fa-solid fa-house"></i>
+          </a>
+          <a href="#about">
+            <i className="p-2 text-2xl fa-solid fa-user"></i>
+          </a>
+          <a href="#projects">
+            <i className="p-2 text-2xl fa-solid fa-bars-progress"></i>
+          </a>
+          <a href="#contact">
+            <i className="p-2 text-2xl fa-solid fa-address-book"></i>
+          </a>
         </div>
       </div>
     </nav>
