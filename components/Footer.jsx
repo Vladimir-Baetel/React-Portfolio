@@ -7,11 +7,11 @@ const Footer = () => {
             <img className="w-16 mr-2" src="../logo.png" alt="" />
           </a>
           <div className="flex flex-col items-end">
-            <p className="text-white text-xl">
+            <p className="text-white sm:text-xl">
               made with <span className="animate-pulse">❤️</span> by Vladimir
               Băețel
             </p>
-            <p className="text-sm text-end text-white italic">
+            <p className="sm:text-sm text-xs text-end text-white italic">
               no templates or pre-built components were hurt in the making of
               this portfolio
             </p>

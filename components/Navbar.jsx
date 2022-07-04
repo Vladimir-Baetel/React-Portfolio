@@ -89,7 +89,7 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-        <div className="w-fit left-1/2 -translate-x-1/2 px-8 sm:hidden flex items-center justify-around gap-8 fixed bottom-0 bg-white/50 dark:bg-black/50 rounded-t-3xl border border-black/20 dark:border-white/20 border-b-0 backdrop-blur-sm ">
+        <div className="w-fit left-1/2 -translate-x-1/2 px-8 sm:hidden flex items-center justify-around gap-8 fixed bottom-2 bg-white/50 dark:bg-black/50 rounded-full border border-black/20 dark:border-white/20 backdrop-blur-sm ">
           <a href="#">
             <i className="p-2 text-2xl fa-solid fa-house"></i>
           </a>

@@ -43,7 +43,7 @@ const About = () => {
         <div className="w-full flex lg:flex-row flex-col gap-16">
           <div className="w-full flex flex-col gap-6 justify-center">
             <div className="w-full flex flex-col lg:items-start items-center gap-6">
-              <p className="text-3xl">Technical and soft skills:</p>
+              <p className="text-3xl">Other relevant skills:</p>
               <div className="flex flex-wrap lg:justify-start justify-center gap-2 text-xl text-black">
                 <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-pink-300 to-rose-600 shadow-lg">
                   📈 sales
@@ -54,7 +54,7 @@ const About = () => {
                 <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-lime-300 to-green-600 shadow-lg">
                   🛍️ shopify
                 </p>
-                <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-cyan-300 to-sky-600 shadow-lg">
+                <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-yellow-300 to-green-600 shadow-lg">
                   🔎 googling
                 </p>
                 <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-orange-300 to-red-600 shadow-lg">
@@ -65,6 +65,9 @@ const About = () => {
                 </p>
                 <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-rose-300 to-red-600 shadow-lg">
                   📦 npm
+                </p>
+                <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-cyan-300 to-sky-600 shadow-lg">
+                  ⚙️ devtools
                 </p>
                 <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-teal-300 to-emerald-600 shadow-lg">
                   🖼️ figma
