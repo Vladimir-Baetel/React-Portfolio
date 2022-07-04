@@ -48,9 +48,9 @@ const Navbar = () => {
   return (
     <nav
       id="navbar"
-      className="w-full bg-white/50 dark:bg-black/50 border-b border-black/20 dark:border-white/20 backdrop-blur-sm fixed z-50"
+      className="w-full bg-white/90 dark:bg-black/90 shadow-lg fixed z-50"
     >
-      <div className="px-4 max-w-7xl mx-auto flex justify-between items-center  relative">
+      <div className="px-4 sm:py-2 py-0 max-w-7xl mx-auto flex justify-between items-center relative">
         <div className="flex items-center">
           <a href="#" className="flex items-center">
             <img className="sm:w-12 w-8 mr-2" src="../logo.png" alt="" />
@@ -89,7 +89,7 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-        <div className="w-fit left-1/2 -translate-x-1/2 px-8 sm:hidden flex items-center justify-around gap-8 fixed bottom-2 bg-white/50 dark:bg-black/50 rounded-full border border-black/20 dark:border-white/20 backdrop-blur-sm ">
+        <div className="w-fit left-1/2 -translate-x-1/2 px-8 sm:hidden flex items-center justify-around gap-8 fixed bottom-2 bg-white/50 dark:bg-black/50 rounded-full border border-black/20 dark:border-white/20 backdrop-blur-sm shadow-lg">
           <a href="#">
             <i className="p-2 text-2xl fa-solid fa-house"></i>
           </a>
