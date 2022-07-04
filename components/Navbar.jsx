@@ -50,15 +50,15 @@ const Navbar = () => {
       id="navbar"
       className="w-full bg-white/50 dark:bg-black/50 border-b border-black/20 dark:border-white/20 backdrop-blur-sm fixed z-50"
     >
-      <div className="flex justify-between items-center max-w-7xl mx-auto relative">
+      <div className="px-4 max-w-7xl mx-auto flex justify-between items-center  relative">
         <div className="flex items-center">
           <a href="#" className="flex items-center">
-            <img className="w-12 mr-2" src="../logo.png" alt="" />
-            <h1 className="text-2xl">Vladimir Băețel</h1>
+            <img className="sm:w-12 w-8 mr-2" src="../logo.png" alt="" />
+            <h1 className="sm:text-2xl text-lg">Vladimir Băețel</h1>
           </a>
         </div>
         <div className="flex">
-          <div className="w-fit sm:flex hidden items-center">
+          <div className="mr-4 w-fit sm:flex hidden items-center">
             <a
               href="#about"
               className="py-2 px-4 text-lg hover:text-violet-600 text-center"
@@ -83,7 +83,7 @@ const Navbar = () => {
               </p>
             </a>
           </div>
-          <div className="px-4 sm:py-0 py-2 flex items-center justify-center">
+          <div className="sm:py-0 py-2 flex items-center justify-center">
             <button id="toggle-btn" onClick={(e) => setToggle(!toggle)}>
               <i className="fa-solid fa-moon hover:text-violet-600"></i>
             </button>
