@@ -32,7 +32,7 @@ const About = () => {
               Check out my
               <a
                 className="mx-2 inline-flex items-center text-violet-600 hover:text-violet-700 border-b border-violet-600"
-                href=""
+                href="https://www.linkedin.com/in/vladimir-baetel/"
               >
                 <i className="mr-1 fa-brands fa-linkedin"></i> LinkedIn
               </a>{" "}
