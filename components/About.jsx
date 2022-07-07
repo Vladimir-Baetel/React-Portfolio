@@ -57,17 +57,23 @@ const About = () => {
                 <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-yellow-300 to-green-600 shadow-lg">
                   🔎 googling
                 </p>
-                <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-orange-300 to-red-600 shadow-lg">
-                  🔗 git
-                </p>
                 <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-sky-300 to-blue-600 shadow-lg">
                   💻 vs code
+                </p>
+                <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-orange-300 to-red-600 shadow-lg">
+                  🔗 git
                 </p>
                 <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-rose-300 to-red-600 shadow-lg">
                   📦 npm
                 </p>
                 <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-cyan-300 to-sky-600 shadow-lg">
-                  ⚙️ devtools
+                  🧮 devtools
+                </p>
+                <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-yellow-300 to-yellow-600 shadow-lg">
+                  📄 api
+                </p>
+                <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-slate-300 to-gray-600 shadow-lg">
+                  📟 cli
                 </p>
                 <p className="w-fit px-4 py-1 items-center rounded-full bg-gradient-to-b from-teal-300 to-emerald-600 shadow-lg">
                   🖼️ figma
